@@ -24,39 +24,25 @@ const BlogCard = ({
   likes,
 }: BlogProps) => {
   return (
-    <section className='w-80'>
-      {/* <!-- CARD --> */}
-      <section>
-        <Image src={imgUrl} alt={imgAlt} width={100} height={100}/>
-
-        {/* <!-- CARD CONTENT --> */}
-        <section>
-          {/* <!-- CARD HEADER --> */}
-          <CardHeader 
-            avatar={avatar}
-            userName={userName}
-          />
-          {/* <!-- CARD HEADER END --> */}
-          
-          {/* <!-- CARD BODY --> */}
-          <CardBody 
-            postTitle={postTitle}
-            postContent={postContent}
-          />
-          {/* <!-- CARD BODY END --> */}
-          <hr/>
-          {/* <!-- CARD FOOTER --> */}
-          <CardFooter 
-            likes={likes}
-          />
-          {/* <!-- CARD FOOTER END --> */}
-              
-          </section>
-          {/* <!-- CARD CONTENT END --> */}
-          
+    <section className='w-11/12 mx-auto bg-slate-100'>
+      <section className='h-60 w-full relative inline-block'>
+        <Image src={imgUrl} alt={imgAlt} fill className='object-cover'/>
       </section>
-      {/* <!-- CARD END --> */}
-  </section>
+      <section className='w-80 p-4'>
+        <CardHeader 
+          avatar={avatar}
+          userName={userName}
+        />
+        <CardBody 
+          postTitle={postTitle}
+          postContent={postContent}
+        />
+        <hr/>
+        <CardFooter 
+          likes={likes}
+        />            
+      </section>         
+    </section>
   )
 }
 
