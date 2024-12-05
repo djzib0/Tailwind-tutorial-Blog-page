@@ -29,6 +29,7 @@ const BlogCard = ({
         <Image src={imgUrl} alt={imgAlt} fill className='object-cover'/>
       </section>
       <section className='w-80 p-4'>
+        <h2 className='font-mono my-4 text-4xl text-center font-extrabold tracking-widest uppercase'>Blog</h2>
         <CardHeader 
           avatar={avatar}
           userName={userName}
