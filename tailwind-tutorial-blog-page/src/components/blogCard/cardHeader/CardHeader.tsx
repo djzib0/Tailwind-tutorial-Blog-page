@@ -13,7 +13,7 @@ const CardHeader = ({avatar, userName}: CardHeaderProps) => {
       <div className='w-8 h-8 relative'>
         <Image src={avatar} alt={userName} fill />
       </div>
-        <span>{userName}</span>
+        <span className='text-slate-500'>{userName}</span>
       <svg 
         height="20px" 
         viewBox="0 -960 960 960" 

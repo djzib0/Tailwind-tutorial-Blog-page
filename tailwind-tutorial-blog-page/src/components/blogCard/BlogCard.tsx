@@ -38,7 +38,7 @@ const BlogCard = ({
           postTitle={postTitle}
           postContent={postContent}
         />
-        <hr/>
+        <hr className='my-3'/>
         <CardFooter 
           likes={likes}
         />            
