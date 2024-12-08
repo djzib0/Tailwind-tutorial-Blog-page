@@ -11,12 +11,12 @@ const BlogFooter = () => {
             <input 
               type="email" 
               placeholder="email@example.com"
-              className='p-2 text-slate-800 pl-4'
+              className='p-2 text-slate-800 pl-4 rounded-l-lg'
             />
             <input 
               type="submit" 
               value="Sign Up"
-              className='bg-slate-300 text-slate-800 p-2 font-medium'
+              className='bg-slate-300 text-slate-800 p-2 font-medium rounded-r-lg'
             />
         </form>
         <span className='font-mono text-sm'>&copy; Fluffy McDuck</span>
