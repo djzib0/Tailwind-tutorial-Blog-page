@@ -24,8 +24,8 @@ const BlogCard = ({
   likes,
 }: BlogProps) => {
   return (
-    <section className='w-11/12 mx-auto bg-slate-100 rounded-xl'>
-      <section className='h-60 w-full relative inline-block'>
+    <section className='w-80 rounded-xl shadow-xl max-h-fit'>
+      <section className='h-60 w-full relative inline-block hover:opacity-85 hover:cursor-pointer'>
         <Image src={imgUrl} alt={imgAlt} fill className='object-cover rounded-t-xl'/>
       </section>
       <section className='w-80 p-4'>

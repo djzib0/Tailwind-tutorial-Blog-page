@@ -5,8 +5,8 @@ import React from 'react'
 
 const BlogNavbar = () => {
   return (
-    <nav className='bg-slate-700 text-white p-4 border-b-4 border-b-slate-400 border-double'>
-      <section className='w-10 mx-auto'>
+    <nav className='flex flex-col md:flex-row md:justify-between bg-slate-700 text-white p-4 border-b-4 border-b-slate-400 border-double'>
+      <section className='w-10 max-md:mx-auto'>
         <svg 
           xmlns="http://www.w3.org/2000/svg" 
           viewBox="0 0 164.56 162.44" 

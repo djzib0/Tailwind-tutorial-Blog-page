@@ -11,7 +11,7 @@ const BlogFooter = () => {
             <input 
               type="email" 
               placeholder="email@example.com"
-              className='p-2 text-slate-800 pl-4 rounded-l-lg'
+              className='p-2 text-slate-800 pl-4 rounded-l-lg focus:placeholder:text-red-100 focus:placeholder:italic'
             />
             <input 
               type="submit" 

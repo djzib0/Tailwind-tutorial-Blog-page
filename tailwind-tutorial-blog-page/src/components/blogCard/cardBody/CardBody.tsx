@@ -9,7 +9,7 @@ type CardBodyProps = {
 const CardBody = ({postTitle, postContent}: CardBodyProps) => {
   return (
     <section>
-      <h2 className='font-sans text-xl font-semibold text-slate-600 tracking-tight leading-snug'>{postTitle}</h2>
+      <h2 className='font-sans text-xl font-semibold text-slate-600 tracking-tight leading-snug line-clamp-3'>{postTitle}</h2>
       <p className='font-sans text-sm my-4 line-clamp-3'>{postContent}</p>
     </section>
   )
